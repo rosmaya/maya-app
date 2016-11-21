@@ -1,0 +1,37 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  tanggal: 2016-11-21
+  no_bpjs: 1
+  no_rm: 1
+  nama_pasien: MyString
+  kel_umur: 1
+  jk: MyString
+  gakin: false
+  desa: MyString
+  rt: MyString
+  rw: MyString
+  poli: MyString
+  pasien_b_l: false
+  diagnosa: MyText
+  icd10: MyString
+  gol_penyakit: MyString
+  resep: MyString
+
+two:
+  tanggal: 2016-11-21
+  no_bpjs: 1
+  no_rm: 1
+  nama_pasien: MyString
+  kel_umur: 1
+  jk: MyString
+  gakin: false
+  desa: MyString
+  rt: MyString
+  rw: MyString
+  poli: MyString
+  pasien_b_l: false
+  diagnosa: MyText
+  icd10: MyString
+  gol_penyakit: MyString
+  resep: MyString
