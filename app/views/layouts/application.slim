@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+html lang="en"
+head
+  meta charset="UTF-8"/
+  title Maya App
+  = csrf_meta_tags
+  = stylesheet_link_tag    'application', media: 'all'
+body
+  = render 'layouts/nav'
+  .container-fluid
+    = yield
+  = javascript_include_tag 'application'

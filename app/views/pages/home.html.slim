@@ -1,2 +1,38 @@
-h1 Pages#home
-p Find me in app/views/pages/home.html.slim
+table.table.table-hover.table-striped
+  thead
+    tr
+      th Tanggal
+      th NO BPJS
+      th NO RM
+      th Nama Pasien
+      th Kel Umur
+      th JK
+      th Gakin
+      th Desa
+      th RT
+      th RW
+      th Poli
+      th Pasien Baru
+      th Diagnosa
+      th ICD10
+      th Gol Penyakit
+      th Resep
+  tbody
+    - @rekam_medis.each do |rm|
+      tr
+        td= rm.tanggal
+        td= rm.no_bpjs
+        td= rm.no_rm
+        td= rm.nama_pasien
+        td= rm.kel_umur
+        td= rm.jk == 'l' ? 'Laki-laki' : 'Perempuan'
+        td= rm.gakin? ? 'Ya' : 'Tidak'
+        td= rm.desa
+        td= rm.rt
+        td= rm.rw
+        td= rm.poli
+        td= rm.pasien_b_l? ? 'Ya' : 'Bukan'
+        td= rm.diagnosa
+        td= rm.icd10
+        td= rm.gol_penyakit
+        td= rm.resep
