@@ -5,7 +5,7 @@ class CreateRekamMedis < ActiveRecord::Migration[5.0]
       t.string :no_bpjs
       t.integer :no_rm
       t.string :nama_pasien
-      t.integer :kel_umur
+      t.string :kel_umur
       t.string :jk
       t.boolean :gakin
       t.string :desa
